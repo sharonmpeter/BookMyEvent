@@ -1,0 +1,63 @@
+<html lang="en">
+    <head>
+        <!-- <img src="https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg" alt=”an artist's rendition of a black hole in space”> -->
+
+        <meta charset=" utf-8">
+        <title>Login Page</title>
+    </head>
+    <body background="https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg" onLoad='a()'></body>
+    <div align="center";>
+        <!-- <iframe id="inlineFrameExample" -->
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    <body>
+        
+        <p>
+            
+                <h2>Log into College Event App</h2>
+         
+            
+        </p>
+        <input type="text" placeholder="Enter username" id="username">
+        <p>
+        <input type="text" placeholder="Enter password" id="password">
+        </p>
+        <p>
+            <!-- <button type="button" onclick="alert('Login Sucess!')">Login</button> -->
+            <button style = "background-color: rgb(235, 236, 219);" type="button" onclick="loginAction();">Login</button>
+        </p>
+        <p>
+        <button style = "background-color: rgb(165, 142, 224);" type="Register" onclick="redirectToRegistrationPage();">Register</button>
+        </p>
+   
+        <!-- <p>
+            <h2>Login Sucess</h2>
+            <input type = "text" id = "sucess">
+        </p> -->
+        <script>
+           function loginAction(){
+            var username = document.getElementById("username").value
+            var password = document.getElementById("password").value
+            
+            if (username && password) {
+                // if (password){
+                    alert('Login Sucess!')
+                // }
+            } else {
+                alert('Please enter a valid username and password')
+            }
+            // "alert('Login Sucess!')"
+            // var sum  = parseInt(first)+parseInt(second)
+         // document. getElementById("sucess") .value = sum;
+        //  document. getElementById("sucess")
+         }
+
+         function redirectToRegistrationPage(){
+
+         }
+</script>
+    </body>
+<!-- </iframe>/  -->
+</div>
+</html>
